@@ -1,0 +1,99 @@
+
+	Data Driven Decision Making = ML
+
+ML allows machine to learn and make decisions smartly
+Data - Learning - Prediction - Decisions
+
+	Training = Data Driven
+	Prediction = Decision Making
+
+
+
+Data Driven = Data -> Training -> Model
+Then this model will help you to make decisions
+
+ML is important to predict hidden insights of data
+Without data its not possible.
+
+_____________________________________________
+
+
+	ML TYPES
+
+Supervised / Classification = Label data 
+				Input Data 80% 
+				Training model and Patterns of data 20%
+				Prediction
+				Output and reports
+	
+		Classification - Categories
+		Regression - Numerical Data 
+
+		ALGOS
+	
+	Simple and Multiple Linear Regression
+	Logistic Regression			
+	KNN
+	SVM
+	Kernel SVM
+	Naive Bayes
+	Decision Tree Classifier
+	Random Forest Classification
+
+
+_____________________________________________
+
+
+UnSupervised / Clustering = Self learn / not label data
+				No Supervision
+
+				Training Model and Learning Patterns of data (Clustering)
+				Prediction
+				Output and reports								
+
+
+		ALGO
+
+	K-Means Clustering
+	Hierarichal Clustering
+	Probabilistic Clustering
+
+
+_____________________________________________
+
+Semisupervised = Mixture of Supervised and Unsupervised
+		Some Labelled data and Unlabelled data
+		
+	When you get which has more missing values and you can't delete all the data
+	
+
+
+_____________________________________________
+
+
+
+Reinforcement = Learn from mistakes and depends on feedback
+		
+		Input Data
+		Training Model and Learning patterns of data
+
+	Prediction based on reward and punishment
+	Hit and Trial learning
+	
+	Example => Google Mail Spam -> google asking you that mail is Spam or not
+
+
+		ALOGS
+
+	Model Free Reinforcement Learning
+		Policy Optimizatio
+		Q-Learning
+
+	Model Based Reinforcement Learning
+		Learn the model
+		Given the model
+
+	
+_____________________________________________
+
+

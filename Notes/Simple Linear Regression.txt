@@ -1,0 +1,20 @@
+	Simple Linear Regression
+
+linear = Straight line in bidimentional plot
+
+
+Two Continuous Variables i.e x and y axis
+and we used it to identify the other values
+
+	one is dependent and the other one is independent
+
+	Relationship between two variables
+	On relationship base we do prediction
+
+EQUATION:
+	y = a + bx
+
+	a = constant / intercept
+	b = function / slope of x
+
+
