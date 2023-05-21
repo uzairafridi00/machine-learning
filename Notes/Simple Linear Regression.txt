@@ -8,7 +8,7 @@ and we used it to identify the other values
 
 	one is dependent and the other one is independent
 
-	Relationship between two variables
+	Relationship between two variables (Statistically significant relationship)
 	On relationship base we do prediction
 
 EQUATION:
@@ -16,5 +16,41 @@ EQUATION:
 
 	a = constant / intercept
 	b = function / slope of x
+
+OR:
+	Linear Regression Model
+
+y =  β0 + β1x + ε
+
+	y = dependent variable
+	x = independent variable
+	β0 = is the constant or intercept
+	β1 = is x's slope or coefficient
+	ε = is the error term
+
+
+____________________________________________
+	
+	Two Variables involved
+
+1. Dependent variable = y
+		        var whose value we want to forecast	
+
+2. Independent variable = x
+			  var that explains the other one
+
+
+	Example => Salary vs Experience Relationship (Train Set)
+		   
+
+
+
+
+
+
+
+
+
+
 
 
