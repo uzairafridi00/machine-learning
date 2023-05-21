@@ -1,2 +1,2 @@
-# machine-learning
+# Machine Learning Journey
 All my Machine Learning practice Code + Notes
