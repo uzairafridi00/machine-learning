@@ -44,7 +44,17 @@ ____________________________________________
 		   
 
 
+___________________________________________________________
 
+
+	Linear Regression
+
+Simple LR -> 1 input and 1 output
+Multiple LR -> more than 1 input and 1 output
+Polynomial LR -> when your data is not linear then this will be used
+
+
+___________________________________________________________
 
 
 
