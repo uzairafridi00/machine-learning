@@ -1,0 +1,44 @@
+		"ML"
+	The study of computer programs (algorithms) that can learn
+	by example.
+	E.g, speech recognition, email spam detection, self driving cars, image recognition
+
+	Algorithms learn rules from labelled examples
+	A set of labelled examples used for learning is called training data.
+
+
+____________________________________________________
+
+
+			KEY CONCEPTS IN ML
+
+
+	Supervised Learning -> Labelled Data
+		Classification -> discrete classes
+		Regression -> Continuouse Values
+
+
+	Unsupervised Learning -> Unlabelled Data
+		Clustering -> similar instances in the data
+		Outlier detection -> finding unsual patterns
+
+
+
+_____________________________________________________________
+
+
+			TOOLS FOR MACHINE LEARNING
+
+
+	scikit-learn, pandas, numpy, matplotlib, scipy
+
+	sciPy : Scientific Computing Tools
+	NumPy : Scientific Computing Library
+	Pandas : Data Manipulation & Analysis
+	Matplotlib : Plotting Library
+	
+	Seaborn or graphviz -> for visualization
+
+	
+
+
