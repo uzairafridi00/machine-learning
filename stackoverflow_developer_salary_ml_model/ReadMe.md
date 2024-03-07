@@ -1,6 +1,7 @@
 # Build A Salary Prediction Web App With Streamlit
 
 ### Data Used
+1. 2023 Survey data is used in this project.
 https://insights.stackoverflow.com/survey
 
 ### Functionalities
