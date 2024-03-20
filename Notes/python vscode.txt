@@ -1,0 +1,67 @@
+	Streamlit.io 
+
+Streamlit turns data scripts into shareable web apps in minutes.
+All in pure Python. No front‑end experience required.
+
+________________________________________________
+
+	Gallery
+
+You can see all the trending apps made on Streamlit Web App library
+You can also see the source code
+
+https://streamlit.io/gallery?category=trending
+
+________________________________________________
+
+	Extension in VS Code
+
+Draw.io for workflow
+	Its interface can be used to create diagrams such as flowcharts, wireframes, UML diagrams, organizational charts, and network diagrams. 
+
+Python Extension Pack
+Pylance
+Code Snap
+Path Intellisense
+Jupyter
+Material Icons
+
+
+
+	Settings
+users -> search jupyter send selection -> checked this button 
+
+
+	
+
+
+
+	Create your environment for Streamlit
+
+	mamba env list
+
+	conda create -n streamlit_env
+	conda activate streamlit_env
+
+	
+	INSTALL ALL THE LIBRARIES
+
+conda install python -y
+pip install streamlit
+pip install pandas numpy matplotlib seaborn plotly scipy scikit-learn openpyxl
+
+
+
+
+
+
+
+
+
+
+
+
+	
+
+
+	
