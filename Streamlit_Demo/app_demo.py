@@ -1,4 +1,6 @@
 import streamlit as st
+import pandas as pd
+import numpy as np
 
 # adding title of your app
 st.title('My First Streamlit APP')
@@ -42,6 +44,22 @@ option_sidebar = st.sidebar.selectbox(
     ('Email','Home Phone','Mobile Phone')
 )
 st.sidebar.write(f'You Selected: {option_sidebar}')
+
+
+# add your whatsapp number
+st.sidebar.text_input('Enter your Phone Number')
+
+# add a file uploader
+uploaded_file = st.sidebar.file_uploader('Choose a CSV File',type='csv')
+
+
+# create a line plot
+# plotting
+data = pd.DataFrame({
+    'first column':list(range(1,11)),
+    'second column':np.arange(number, number + 10),
+})
+st.line_chart(data)
 
 
 
