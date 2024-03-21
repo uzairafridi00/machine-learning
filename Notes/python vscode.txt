@@ -38,7 +38,7 @@ users -> search jupyter send selection -> checked this button
 
 	Create your environment for Streamlit
 
-	mamba env list
+	conda env list
 
 	conda create -n streamlit_env
 	conda activate streamlit_env
@@ -50,6 +50,19 @@ conda install python -y
 pip install streamlit
 pip install pandas numpy matplotlib seaborn plotly scipy scikit-learn openpyxl
 
+
+
+
+
+
+
+pip install pipreqs => can create requirements.txt file
+	
+	just write pipreqs in terminal where your file is
+
+
+
+pip install -r requirements.txt => installing the requirements libraries
 
 
 

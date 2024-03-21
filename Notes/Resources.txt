@@ -1,0 +1,17 @@
+	Softwares
+
+Python
+VS Code
+Miniconda -> same like Anaconda which is lighter
+Nvidia -> install if you have
+Git
+Github
+
+
+
+	Websites
+
+Github
+Twitter
+Kaggle
+LinkedIn
