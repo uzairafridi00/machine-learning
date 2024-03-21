@@ -1,0 +1,10 @@
+Pandas - wrangle the data i.e EDA
+Numpy - Numeric
+Matplotlib - Visulization
+Seaborn 
+Plotly - Interactive plotting
+SciPy - Cover statistics
+Scikit Learn - Basic Machine Learning
+Stats Models - ML + Stats
+Tensor Flow - Deep Learning, Neural Network, Generative AI
+Streamlit - Making Dashboard
