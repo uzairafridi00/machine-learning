@@ -1,0 +1,147 @@
+			Artificial Intelligence 
+
+refers to computer systems that are capable of performing task that typically requires human 			   		   intelligence. Such as decision making, NLP, CV etc. Example of Petrol prices increases with dollars. 			           AI system can learn from data and improve overtime like humans. ML and Deep Learning are subset of AI.
+Reasoning, AI use logic and inference rules to solve problems.
+
+	Types of AI 
+
+Narrow AI => Focused on Single Task
+General AI => General Intelligence and capabilities
+
+
+________________________________________________________________________
+
+
+		AI vs Data Science vs ML vs DL
+
+
+AI includes ML, DL and Big Data
+Data Science is 50% to 70% merges into AI
+
+Data Analytics is part of data science --> in which we capture Data Driven Decision
+
+
+		STEPS
+
+1) Data Basic Analysis
+2) Then apply ML and DL on data
+3) Then we move to AI
+
+
+Software Development, App Development comes under AI
+
+
+		TYPES of AI
+
+https://www.javatpoint.com/types-of-artificial-intelligence
+
+________________________________________________________________________
+
+
+		Data Science vs Data Analytics
+
+data science involves using data to build models that can predict future outcomes, --- while data analytics tends to focus on analyzing past data to inform decisions in the present --
+
+Data Science works on Data Sets, Training ML models, Data mining, Data cleaning, Deploying AI applications etc -- Data Analytics; querying data, interpret the data, and visualize the data in a meaning-full way for better decision making
+
+
+________________________________________________________________________
+
+
+		Benefits of AI in our Daily Life
+
+Smart Assistants 
+Recommendation Systems
+Autonomous Vehicles
+Language Translation
+Fraud Detection
+Medical Diagnosis
+Predictive Messaging
+Facial Recognition
+Personalized Content
+Social Media
+Smart Home
+Retail
+Logistics
+Health
+Finance
+Gaming
+Customer Service
+Recruiting
+Manufacturing
+Photography
+
+
+
+________________________________________________________________________
+
+
+
+		Reading & Blogs
+
+https://codanics.com/blogs/
+towardsdatascience.com
+
+
+
+________________________________________________________________________
+
+
+		History of AI
+
+1943 -> Warren & Walter proposed simplified model of brain neurons
+1950 -> Alan Turing Test - measure the machine intelligence
+1955 -> John - Coined the term AI also developed Lisp Programming language
+1997 -> IBM Deep Blue - Chess game beat human
+2011 -> IBM Watson - Defeated human champions
+2012 -> Deep Neural Network introduced
+2024 -> now AI transforms vision, speech, robotics and more
+
+
+
+________________________________________________________________________
+
+
+		Jobs in AI
+
+Research Scientist   --> Develop new AI Algorithsm, techniques and architectures
+ML Scientist
+Data Scientist
+
+Data Engineer 	     --> Build data infrastructure and pipelines to feed the data to AI systems
+Software Engineers   --> Design, develop and maintain the software systems
+Business Development --> Focus on strategy, marketing and partnership roles. Product Managers
+Project Managers     --> Oversee AI system deployment. AI Project Manager
+Data Annotation Specialists --> Manually label and prepare datasets to train AI Algorithms.
+Applied Scientists   --> Working on applying AI systems to solve real-world applications
+UX/UI Designer       --> Design interfaces that enable easy human interactions with AI systems.
+Ethical AI Expert    --> Specialists who assiss AI for fairness,transparency,bias and other ethical considerations.
+Technical Writers    
+Prompt Engineers     --> creating prompts for GPT3 and 4 so on
+AI Policy Makers     
+
+
+Search AI -> in LinkedIN
+
+
+
+		IDEAS
+
+Automatic Door
+Automatic Lights
+AI Smart Watch
+Background Removal Application
+
+
+________________________________________________________________________
+
+
+		
+
+
+
+
+
+
+
+

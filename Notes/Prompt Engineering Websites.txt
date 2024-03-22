@@ -1,0 +1,13 @@
+
+	We will need these websites for Prompt Engineering
+
+
+Perplexity.ai    ---> Login here
+Claude.ai        ---> Need VPN for this
+ChatGPT          ---> Login 
+Poe.com		 ---> GPT Algorithms avalaible free
+Bing.ai		 ---> Microsoft AI (Use in Edge Browser)
+Gemini		 ---> Login
+
+
+Huggingface.co   ---> Login 

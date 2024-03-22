@@ -24,8 +24,16 @@ Pylance
 Code Snap
 Path Intellisense
 Jupyter
-Material Icons
+VS-Code Icons ===== Material Icons
+Prettier
 
+
+	Themes
+
+JellyFish Theme
+Github Theme
+
+______________________________________________
 
 
 	Settings
