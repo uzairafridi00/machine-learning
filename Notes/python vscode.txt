@@ -33,6 +33,21 @@ Prettier
 JellyFish Theme
 Github Theme
 
+
+
+Github Copilot  = Paid
+Github Copilot Chat
+
+
+Codeium AI Automcomplete  = Free
+BlackBox AI  = Free
+
+Markdown All in One  = for Markdown notes
+
+Code Snap = Click classic Image of your Code
+
+
+
 ______________________________________________
 
 
@@ -41,6 +56,26 @@ users -> search jupyter send selection -> checked this button
 
 
 	
+______________________________________________
+
+		CONDA ENVIRONMENTS / Containers
+
+
+We need to create different environments for different tasks like EDA, ML, DL
+
+Example: Car tools in Car tool box. Gardening tools in Gardening tool box
+
+E.g: Home with different rooms i.e living room, bedroom, kitchen etc. In each room we have specific tools according to the room.
+
+	
+		Why we need different Envrironments
+We need to put the tools of kitchen in kitechen not in bedroom and living room otherwise there will be conflicts.
+Same with python libraries for specific tasks like EDA, ML and DL.
+
+Enironment is like room which contains different tools/libraries.
+We keep specific version of tools in each environment so that there should no conflicts in tools.
+
+
 
 
 
@@ -50,8 +85,15 @@ users -> search jupyter send selection -> checked this button
 
 	conda create -n streamlit_env
 	conda activate streamlit_env
-
 	
+	conda list
+	
+	conda env remove --name streamlit_env       ==> need to be in base when removing
+
+
+	conda install -c conda-forge python -y
+
+
 	INSTALL ALL THE LIBRARIES
 
 conda install python -y
@@ -61,6 +103,11 @@ pip install pandas numpy matplotlib seaborn plotly scipy scikit-learn openpyxl
 
 
 
+
+______________________________________________
+
+
+		Requirements.txt FILE
 
 
 
