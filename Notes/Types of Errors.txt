@@ -1,0 +1,37 @@
+1.Syntax Errors: These occur when the Python interpreter encounters code that is not written according to the syntax rules. It often results from typos, missing colons, or incorrect indentation.  Example:  python print("Hello, World" 
+
+2.Indentation Errors: Indentation is significant in Python, and errors can occur if there are issues with the alignment of code blocks.   Example:   python if True: print("Indentation error") 
+
+3.NameError  This error occurs when a variable or name is used before it is defined.   Example:   python print(x) 
+
+4.TypeError:  This error occurs when an operation or function is applied to an object of an inappropriate type.   Example:   python result = "Hello" + 42 
+
+5.ValueError:  Raised when a function receives an argument of the correct type but an inappropriate value.   Example:   python number = int("abc") 
+
+6. IndexError:  Raised when trying to access an element from a sequence (e.g., list, tuple) using an invalid index.   Example:   python my_list = [1, 2, 3] print(my_list[5]) 
+
+7. KeyError:  Raised when trying to access a dictionary key that does not exist.  Example:   python my_dict = {'a': 1, 'b': 2} print(my_dict['c']) 
+
+8. FileNotFoundError:  Raised when attempting to open a file that does not exist.   Example:   python with open('nonexistent_file.txt', 'r') as file: content = file.read() 
+
+9.ModuleNotFoundError:  Raised when attempting to import a module that cannot be found.   Example:  python import non_existent_module 
+10.AttributeError:  Raised when trying to access an attribute that doesn't exist.   Example:   python my_list = [1, 2, 3] my_list.append(4) print(my_list.add(5))   Should be print(my_list.append(5)) 
+
+11. ZeroDivisionError: Raised when attempting to divide a number by zero.  Example:  python result = 10 / 0 
+
+12. FileExistsError: Raised when trying to create a file or directory that already exists.  Example:  python with open('existing_file.txt', 'x') as file: file.write('Some content') 
+
+13. PermissionError:  Raised when trying to perform an operation that requires higher privileges, such as writing to a read-only file.   Example:  python with open('/etc/some_file.txt', 'w') as file: file.write('Content') 
+
+14. ImportError:  Raised when there is an issue with the import statement, such as when a module is not found or there is an error in the module being imported.  Example:  python from non_existent_module import some_function 
+
+15. TypeError (unsupported operand type):  Raised when an unsupported operand type is used for an operation.   Example:  python result = 'Hello' / 2 
+
+16. TypeError (unhashable type):  Raised when trying to use an unhashable type (e.g., a list) as a key in a dictionary.  Example:  python my_dict = {['a']: 1} 
+
+17. AttributeError (module has no attribute):  Raised when trying to access an attribute that does not exist within a module.  Example:  python import math print(math.nonexistent_function()) 
+
+18. MemoryError:   Raised when an operation runs out of memory.  Example:  python data = [0] * 10**8   Attempting to create a very large list 
+19. TypeError (format string):   Raised when there is an issue with the format string in functions like `format()`.  Example:  python result = "The value is {}".format(42, 23) 
+
+20. RecursionError (maximum recursion depth exceeded):  Raised when a function exceeds the maximum recursion depth.  Example:  python def infinite_recursion(): return infinite_recursion() infinite_recursion()
