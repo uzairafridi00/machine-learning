@@ -85,6 +85,9 @@ We keep specific version of tools in each environment so that there should no co
 	conda env list
 
 	conda create -n streamlit_env
+	
+	conda init
+
 	conda activate streamlit_env
 	
 	conda list
@@ -93,6 +96,9 @@ We keep specific version of tools in each environment so that there should no co
 
 
 	conda install -c conda-forge python -y
+
+
+	conda rename -n old_name  new_name 
 
 
 	INSTALL ALL THE LIBRARIES
