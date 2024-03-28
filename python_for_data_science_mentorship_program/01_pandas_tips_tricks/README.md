@@ -7,9 +7,52 @@ All the pandas tips and tricks for doing exploratory data analysis are collected
 2. Designed to make data cleaning and analysis quick and easy in Python.
 
 ## Rows and Columns
-Rows - rows set the data from left to right in horizontal form, and the other names for rows are records, instances, datapoints, observations.
+Rows - rows set the data from left to right in horizontal form, and the other names for rows are records, instances, datapoints, observations, entries.
 
-Columns - Columns align the data from top to bottom, and the other names for columns are attributes, variables, fields , dimensions
+Columns - Columns align the data from top to bottom, and the other names for columns are attributes, properties, features, fields , dimensions.
+
+Rows and Columns are called Dataframe in Pandas.
+
+## Data Life Cycle
+1. Acquire the data. (Ask)
+2. Clean the data. (Process)
+3. Use the data. (Analyze)
+4. Publish the data. (Report)
+5. Preserve/Destroy the data. (Save)
+
+## Structured & Unstructed Data
+1. Structured data is in tabular form. Rows and Columns.
+2. Unstructured data are images, audios or text data.
+
+## Data Collection
+We need to collect the data. So we ask wh? questions
+
+why? -> How? -> Where? -> Who? -> When?
+
+1. Primary data is our own. Expensive method. Research included.
+2. Secondary data is already produced. Cheaper Method.
+
+## Data Scientist vs Data Analyst
+### Data Scientist:
+1. Understand Business.
+2. Data Acquistion / Understanding.
+3. Data Preparation.
+4. Data Modeling (ML/DL).
+5. Data/Model Evaluation.
+6. Model Deployment.
+7. Monitor and Optimize the Models.
+
+### Data Analyst:
+1. Required Information about data (Meta Data).
+2. Data Collection.
+3. Assigned Goals about data.
+4. Data Cleaning / Preprocessing.
+5. EDA (Exploratory Data Analysis).
+6. Generate Inference from data.
+7. Make Model.
+8. Deploy the Model.
+9. Interept and Visualize the data.
+10. Report Writing.
 
 ## Data Cleaning 🧹
 1. Handling Missing Data: Utilize methods like `dropna()`, `fillna()`, and understand the importance of `inplace` parameter.
