@@ -43,12 +43,15 @@ Github Copilot Chat
 Codeium AI Automcomplete  = Free
 BlackBox AI  = Free
 
-Markdown All in One  = for Markdown notes
-
 Code Snap = Click classic Image of your Code
 
 
+	Markdown Extensions
 
+Markdown All in One  = for Markdown notes
+Markdown PDF
+Markdown lint
+Markdown Shortcuts
 ______________________________________________
 
 
