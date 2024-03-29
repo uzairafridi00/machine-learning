@@ -1,4 +1,4 @@
-# Pandas & Exploratory Data Analysis
+# Pandas & Exploratory Data Analysis or Data Wrangling
 
 All the pandas tips and tricks for doing exploratory data analysis are collected in this section. 
 
@@ -14,11 +14,23 @@ Columns - Columns align the data from top to bottom, and the other names for col
 Rows and Columns are called Dataframe in Pandas.
 
 ## Data Life Cycle
-1. Acquire the data. (Ask)
-2. Clean the data. (Process)
-3. Use the data. (Analyze)
-4. Publish the data. (Report)
-5. Preserve/Destroy the data. (Save)
+1. Acquire the data. **(Ask)**
+   1. Create data
+   2. Capture data
+   3. Gather data
+2. Clean the data. **(Process)**
+   1. Organize data
+   2. Filter data
+   3. Anotate data
+   4. Clean data
+3. Use the data. **(Analyze)**
+   1. Analyze
+   2. Mine
+   3. Model
+   4. Decision
+   5. Visualize
+4. Publish the data. **(Report)**
+5. Preserve/Destroy the data. **(Save)**
 
 ## Structured & Unstructed Data
 1. Structured data is in tabular form. Rows and Columns.
@@ -42,7 +54,7 @@ why? -> How? -> Where? -> Who? -> When?
 6. Model Deployment.
 7. Monitor and Optimize the Models.
 
-### Data Analyst:
+### Data Analyst: (Tableu / PowerBI)
 1. Required Information about data (Meta Data).
 2. Data Collection.
 3. Assigned Goals about data.
@@ -53,6 +65,28 @@ why? -> How? -> Where? -> Who? -> When?
 8. Deploy the Model.
 9. Interept and Visualize the data.
 10. Report Writing.
+
+### Types of Data Analytics
+1. Descriptive -> What happend? -> **EDA**
+2. Diagnostic -> Why did it happen? -> **Patterns / EDA**
+3. Predictive -> What will happen? -> **ML/DL**
+4. Prescriptive -> How can we make it happen? -> **Data Driven Decision Making** 
+
+## Levels of Measurement
+1. Nominal -> Name, colour, city_name
+2. Ordinal -> Named + Ordered Variable. E.g Elder, Younger, Middle
+3. Interval -> Named + Ordered + Proportion / Interval Between Variables. E.g Peshawar to Islamabad distance
+4. Ratio -> Absolute Zero
+
+## Data Major Types
+Qualitative & Quantitave
+### Qualitative Data
+Categorical / Non-Numeric -> Nominal and Ordinal are sub-types.
+### Quantitave Data
+Numerical -> Discrete Data (Non-Decimal) and Continuous (Decimal) -> Interval and Ratio are sub types of Continuous.
+
+## Population & Sampling
+![Alt text](./Sample_Population.PNG)
 
 ## Data Cleaning 🧹
 1. Handling Missing Data: Utilize methods like `dropna()`, `fillna()`, and understand the importance of `inplace` parameter.
