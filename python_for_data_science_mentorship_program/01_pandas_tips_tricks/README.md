@@ -42,7 +42,7 @@ Rows and Columns are called Dataframe in Pandas.
 
 ## Data Collection
 
-We need to collect the data. So we ask wh? questions
+We need to collect the data. So we ask **_wh?_** questions
 
 **why? -> How? -> Where? -> Who? -> When?**
 
@@ -112,8 +112,8 @@ Numerical -> Discrete Data (Non-Decimal) and Continuous (Decimal) -> Interval an
 2. Explore **Who** collected / gathered this data.
 3. Explore **What** is this data about?
 4. Find **Meta Data** of the data.
-5. Explore the data **Dimension** *(rows x columns)*.
-6. Explore the **Composition *(rows and columns or structure)*, Comparison, Correlation *(corr matrix)*, Distribution** of the data.
+5. Explore the data **Dimension** _(rows x columns)_.
+6. Explore the **Composition _(rows and columns or structure)_, Comparison, Correlation _(corr matrix)_, Distribution** of the data.
    1. Person'r R & Spearson's R -> Correlation Coefficient.
    > A positive value indicates a linear relationship.
 7. The above 4 components are **Descriptive Data Analytics**.
