@@ -106,6 +106,10 @@ Numerical -> Discrete Data (Non-Decimal) and Continuous (Decimal) -> Interval an
 
 ## Exploratory Data Analysis **(EDA)**
 
+Important point for EDA is the **Purpose**. Why do want to conduct this analysis? Is it for prediction or understanding?
+
+EDA [Importance](https://codanics.com/why-eda-is-important/)
+
 ## Data Exploration or Data Wrangling or Data Munging or Data Preprocessing or Data Cleaning
 
 1. Feel the data again and again.
