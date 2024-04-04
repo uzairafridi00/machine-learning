@@ -27,6 +27,7 @@ Jupyter
 VS-Code Icons ===== Material Icons
 Prettier
 Rainbow CSV
+Edit CSV
 Excel Viewer
 VS-Code pdf
 
