@@ -102,7 +102,7 @@ Numerical -> Discrete Data (Non-Decimal) and Continuous (Decimal) -> Interval an
 
 ## Population & Sampling
 
-![Alt text](./Sample_Population.PNG)
+![Alt text](./images/Sample_Population.PNG)
 
 ## Exploratory Data Analysis **(EDA)**
 
@@ -135,10 +135,86 @@ EDA [Importance](https://codanics.com/why-eda-is-important/)
 3. Merging, Joining, and Concatenating: Understand the differences and applications of `merge()`, `join()`, and `concat()`.
 4. Reshaping Data: Grasp `melt()` and `pivot()` for transforming datasets.
 
+## Outliers
+
+Blog [Link](https://codanics.com/handling-outliers-in-data-science-and-machine-learning/)
+
+1. An outlier is an observation that lies an abnormal distance from other values in a random sample from a population.
+2. Outliers can sometimes indicate errors or anomalies in the data.
+3. Outliers can also impact the structure of the data that is normal distribution.
+4. Mean and Variance. Variance is the spread of data distribution which is also called Standard Distribution.
+
+### Types of Outliers
+
+- Univariate outliers -> 1 variable.
+- Multivariate outliers -> More than 2 variables.
+  
+1. Global outlier
+   > Point Anomally affects all observations. E.g. Temperature ranges from 2°C to 40°C in particular set and we get one temperature of 100°C.
+2. Contextual outlier
+   > Data points whose value significantly deviates from other data within the same context.
+3. Collective outlier
+   > Groups of data points that collectively deviate significantly from the overall distribution of a dataset.
+
+### How to Identify Outliers
+
+- Visually Identification
+  > Boxplot and Histogram
+- IQR (Inter Quartile Range) Method.
+  > IQR = Q3 - Q1
+- Z-Score Method
+
+![IQR](./images/IQR.PNG)
+
+![IQR Ranges](./images/box_plot_iqr.PNG)
+
+![Z-Score](./images/Z-Score.png)
+
+![Alt text](./images/standard_deviation.jpg)
+
+### Handling Outliers
+
+1. Remove them.
+2. Transform them. `Exponential transformation`, `logarithmic transformation` etc.
+3. Impute them. Deal the outliers like missing values.
+4. Use ML Models which are robust to outliers. Ex: Isolation Forest, One Class SVM.
+
+### Python Code to Remove Outliers
+
+```Python
+import seaborn as sns
+import pandas as pd
+
+# Load the Titanic dataset
+titanic = sns.load_dataset('titanic')
+
+# Display the first few rows of the dataset
+print(titanic.head())
+
+# Calculate the IQR for the 'age' column
+Q1 = titanic['age'].quantile(0.25)
+Q3 = titanic['age'].quantile(0.75)
+IQR = Q3 - Q1
+
+# Define bounds for the outliers
+lower_bound = Q1 - 1.5 * IQR
+upper_bound = Q3 + 1.5 * IQR
+
+# Remove outliers
+titanic_no_outliers = titanic[(titanic['age'] >= lower_bound) & (titanic['age'] <= upper_bound)]
+
+# Display the first few rows of the dataset without outliers
+print(titanic_no_outliers.head())
+```
+
 ## Links to useful resources
 
 - [Book] <https://wesmckinney.com/book/python-builtin#set>
 - [Pandas Cheat Sheet] <https://pandas.pydata.org/Pandas_Cheat_Sheet.pdf>
+- Google Data Search.
+- Machine Learning Data Repository.
+- [EDA Blog] <https://codanics.com/pandas-python-library-for-eda-a-comprehensive-guide/>
+- [Complete Guide Step by Step] <https://www.analyticsvidhya.com/blog/2022/07/step-by-step-exploratory-data-analysis-eda-using-python/>
 
 ## Other Libraries
 
