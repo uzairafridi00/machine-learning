@@ -90,3 +90,7 @@ Represents three variables by using bubbles, where the x and y coordinates repre
 ### Choropleth Map
 
 Visualizes data by shading or coloring regions or areas based on the measured values, typically used for geographic or spatial data. Sankey Diagram: Illustrates the flow or movement of data or quantities between different entities using interconnected flows.
+
+## Resources
+
+- [Blog](https://codanics.com/data-visualization-in-data-science/)
