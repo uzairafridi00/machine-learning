@@ -25,7 +25,7 @@ Feature encoding is a data preprocessing technique used to convert categorical f
 4. A,B and C is X and D is y. **X = features** and **y = labels**.
 5. On X-axis we plot feature and on y-axis we plot label.
 
-## Methods
+## Methods of Feature Scaling
 
 ### Min-Max Scaling
 
@@ -73,3 +73,24 @@ log(x)
 log10(x)
 
 ```
+
+## Methods of Feature Encoding
+
+- For Categorical variables we do feature encoding and for Numeric variables we do feature scaling.
+- String converted to Int so that machine can understand on data.
+- Easy to understand to machine.
+- Computation fast.
+- Less resources used.
+- Converted to universal language that is maths 0,1,2,3... which is easily understood.
+
+### One Hot Encoding
+
+![One Hot Encoding](./images/one_hot_encoding.png)
+
+### Label Encoding
+
+![Label Encoding](./images/label_encoding.png)
+
+### Ordinal Encoding
+
+![Ordinal Encoding](./images/ordinal_encoding.png)
