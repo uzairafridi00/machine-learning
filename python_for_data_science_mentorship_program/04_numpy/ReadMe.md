@@ -23,4 +23,4 @@ Matrices are two-dimensional.
 
 ## Tensors
 
-Tensors can have any number of dimensions.
+Tensors can have any number of dimensions. Tensorflow and PyTorch.
