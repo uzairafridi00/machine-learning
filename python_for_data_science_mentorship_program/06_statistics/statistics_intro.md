@@ -55,9 +55,19 @@ Stats used in many fields such as business, economics, engineering, and social s
 
 ### 1. Descriptive Statistics
 
+It involves summarizing and describing data using measures such as mean, median, mode, range, standard deviation, and graphical representations like histograms and box plots. Descriptive statistics helps in identifying patterns, relationships, and trends in data, making it an essential tool in various fields, including business, medicine, and social science.
+
+_Exploring the Data (EDA)._
+
 ### 2. Inferential Statistics
 
+Inferential statistics is a branch of statistical science that involves drawing conclusions or making predictions about a larger population from a sample of data. This is done by using probability and hypothesis testing to determine the likelihood that observed results are due to chance or if there is a significant relationship between variables.
+
+Genrating inference from population on the basis of sample.
+
 ## Why Stats is Important for Data Science
+
+Statistics is important because it helps to describe, understand, and interpret data. It is used to identify patterns and make predictions based on the information available. Statistics provides a framework for decision-making and problem-solving, and helps to make sense of complex data sets.
 
 ### Question / Problem
 
@@ -321,6 +331,71 @@ Types of measurement bias include:
 3. Data Collection Vigillances (Use standardized protocol or use multiple resources)
 4. Analytical Awareness (Statistical test & Peer Review)
 5. Ongoing Education and Awareness
+
+## Data Analysis
+
+A process of transforming raw data (collected data) into meaningful insights.
+
+### Types of Data Analysis
+
+1. Descriptive Data Analysis
+   - Focuses on summarizing the main features of a dataset.
+2. Diagnostic Data Analysis
+   - Digs deeper to find the cause behind the observed patterns.
+3. Predictive Data Analysis
+   - Uses historical data to predict future outcomes.
+4. Prescriptive Data Analysis
+   - Recommends actions and predicts their outcomes.
+5. EDA
+   - Explores data for patterns, anomalies, and hypotheses.
+6. Inferential Analysis
+   - Makes inferences about populations using sample data.
+7. Causal Analysis
+   - Determines causality between variables.
+8. Mechanistic Analysis
+   1. Examines the exact mechanisms of changes in variables.
+
+[More Details](https://codanics.com/data-analysis-and-types-of-data-analysis/)
+
+## Population vs Sample
+
+### What is a Population?
+
+In statistics, a population refers to the entire group that you want to draw conclusions about. For example, the population could be “all the people living in Lahore City” or “every oak tree in a forest.”
+
+### What is a Sample?
+
+A sample is a subset of the population, selected for study. For instance, surveying 1,000 residents of Lahore City as a sample of the entire city’s population.
+
+#### Ensuring Accurate Sampling
+
+1. Random Sampling: Ensures every member of the population has an equal chance of being selected.
+2. Stratified Sampling: Divides the population into strata and samples from each stratum.
+3. Sample Size: Larger samples generally provide more accurate reflections of the population.
+
+## Central Tendency
+
+Central Tendency is a way to describe the center of a data set. In data terms, it’s the point around which the data clusters. Think of it as a way to summarize a whole lot of numbers with just one value that represents them best.
+
+### The Big Three of Central Tendency
+
+1. Mean (The Average)
+   - Arithmetic Mean
+   - Geomteric Mean - is calculated by multiplying all the valus together and then taking the nth root.
+   - Harmonic Mean - is the reciprocal of the arithmetic mean of the reciprocals of the values. Suitable for rates and ratios.
+   - Weighted Mean - is the weight or importance of each value in dataset.
+2. Median (The Middle Value)
+3. Mode (The Most Common)
+
+### NOTE
+
+**Mean:** Can be skewed by outliers (like a billionaire moving into a neighborhood).
+**Median:** Great for skewed distributions (think wealth distribution).
+**Mode:** Perfect for categorical data (like survey responses).
+**Sample Mean:** The mean of a sample of data.
+**Population Mean:** The mean of the entire population.
+
+![Central Tendency](./images/central_tendency.png)
 
 ## Resources
 
