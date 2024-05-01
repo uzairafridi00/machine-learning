@@ -379,23 +379,159 @@ Central Tendency is a way to describe the center of a data set. In data terms, i
 
 ### The Big Three of Central Tendency
 
-1. Mean (The Average)
+1. **Mean (The Average)**
    - Arithmetic Mean
    - Geomteric Mean - is calculated by multiplying all the valus together and then taking the nth root.
    - Harmonic Mean - is the reciprocal of the arithmetic mean of the reciprocals of the values. Suitable for rates and ratios.
    - Weighted Mean - is the weight or importance of each value in dataset.
-2. Median (The Middle Value)
-3. Mode (The Most Common)
+2. **Median (The Middle Value)**
+   - Always sort the data then find the middle value.
+   - Outliers can be handle.
+   - Use on Real estates data, Income data.
+3. **Mode (The Most Common)**
+   - Frequency of the most common value.
+   - Use on categorical data.
 
 ### NOTE
 
 **Mean:** Can be skewed by outliers (like a billionaire moving into a neighborhood).
 **Median:** Great for skewed distributions (think wealth distribution).
 **Mode:** Perfect for categorical data (like survey responses).
+
 **Sample Mean:** The mean of a sample of data.
 **Population Mean:** The mean of the entire population.
 
+![Population & Sample Mean](./images/population_sample_mean.png)
+
+## Limitations of Mean
+
+1. Sensitive to Outliers.
+2. Sensitive to extreme values.
+3. Sensitive to the number of values.
+4. Doesn't tell the full story.
+
 ![Central Tendency](./images/central_tendency.png)
+
+## Variability | Dispersion | Spread of Data
+
+Variability often referred to as dispersion, is the hearbeat of a dataset. It measures how much individual data points differ from each other and from the central tendency (like mean or median).
+
+1. Range of Spread
+   - Max - Min
+2. IQR
+   - Shows middle 50% of data.
+   - Q1, Q2, Q3, Q4
+   - Helps to remove outliers
+3. Variance
+   - Checks spread around the mean
+4. Standard Deviation
+5. Standard Error
+
+### 1. Range of Data
+
+Sensitive to outliers.
+
+- Minimum Value
+- Maximum Value
+
+Range = Maximum - Minimum
+
+### 2. IQR (Interquartile Range)
+
+Any data divided into 4 parts.
+
+- Q1 (25th Percentile)
+- Q2 (50th Percentile)
+- Q3 (75th Percentile)
+- Q4 (100th Percentile)
+
+The middle 50% of data is IQR. Helps to identify outliers.
+
+IQR = Q3 - Q1
+
+#### Steps
+
+1. Sort the data in ascending the order.
+2. Find the quartiles.
+3. Subtract Q1 from Q3.
+
+![IQR](./images/iqr.png)
+![IQR](./images/iqr_box_plot.png)
+
+### 3. Variance
+
+Variance is a statistical measure that quantifies the extent to which data points in a set deviate from the mean.
+
+Variance is a statistical measure of the spread of a dataset, calculated as the average of the squared differences between each data point and the mean, and is used to quantify the dispersion of data around an average value. _For example_, if the mean of a dataset is 10 and the variance is 4, it means that the data points in the dataset are on average 4 units away from the mean.
+
+Variance is a measure of how spread out a set of data points is from the mean.
+
+[More About Variance](https://codanics.com/variance-in-statistics/)
+
+![Variance](./images/variance.png)
+
+### 4. Standard Deviation
+
+Standard deviation is a measure of the dispersion of data around the mean.
+
+A low standard deviation means that the data points are close to the mean, indicating smooth and consistent terrain. In contrast, a high standard deviation indicates that the data points are spread out over a wider range of values, akin to a rough, uneven landscape.
+
+Mean +- SD/std/st.dev = 3 +- 0.05
+
+![Standard Deviation](./images/standard_deviation.png)
+![Standard Deviation](./images/standard_deviation_1.png)
+![Error Bars](./images/error_bars.png)
+
+#### Standard Error
+
+ The standard error is used when we want to estimate the precision of the sample mean as an estimate of the population mean. It is calculated as the standard deviation divided by the square root of the sample size. The larger the sample size, the smaller the standard error, which means that the sample mean is more likely to be close to the true population mean. On the other hand, the standard deviation is used to describe the variability of the data set itself. It is calculated as the square root of the variance, which is the average of the squared differences from the mean. The standard deviation is useful for understanding how much the values in a data set vary from the mean.
+
+ se = SD / square_root(n)
+
+## Normal Distribution / Gaussian Distribution
+
+If we calculate STD;
+
+![Normal Distribution](./images/normal_distribution_2.jpg)
+
+![Distribution](./images/distribution.png)
+![Standard Deviation](./images/normal_distribution_1.png)
+
+## Data Distributions
+
+Data distribution refers to how data points in a dataset are spread out or clustered across a range of values. It is the blueprint that describes the shape or spread of data in a graphical format. Understanding the distribution of data is fundamental in choosing the correct statistical methods and models for analysis.
+
+Graphical representations such as histograms, box plots, and probability density plots are invaluable in visualizing data distributions.
+
+Understanding the distribution of data is pivotal in data science for several reasons:
+
+1. Model Selection
+2. Predictive Analysis
+3. Outlier Detection
+
+### 1. Normal/Gaussian Distribution: The Bell Curve
+
+Symmetrical, bell-shaped curve centered around the mean. Example: Human heights within a specific gender and age group.
+
+### 2. Uniform Distribution: Even Spread
+
+All values have the same frequency, creating a flat distribution. Example: A fair roll of a dice, where each outcome from 1 to 6 is equally likely.
+
+### 3. Binomial Distribution: Success or Failure
+
+Represents the probability of a fixed number of successes in a series of independent experiments. Example: The number of heads observed when flipping a coin multiple times.
+
+### 4. Poisson Distribution: Counting Events
+
+Models the number of times an event occurs within a fixed interval. Example: The number of emails a person receives per day.
+
+### 5. Exponential and Gamma Distributions: Modeling Time
+
+Often used to model waiting times or lifetimes. Example: The amount of time until the next bus arrives.
+
+![Data Distributions](./images/data_distributions.png)
+![Data Distribution](./images/data_distributions_1.png)
+![Every Distribution With Types](./images/all_distributions_types.jpg)
 
 ## Resources
 
