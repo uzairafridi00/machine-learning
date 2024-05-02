@@ -36,6 +36,7 @@ Statitics is a branch of mathematics that deals with the collection, analysis, i
 
 1. Collection
    - Sampling of data
+   - For Data Science Data is raw material
 2. Analysis
    - Data Analysis techniques
 3. Interpretation
@@ -59,11 +60,39 @@ It involves summarizing and describing data using measures such as mean, median,
 
 _Exploring the Data (EDA)._
 
+For descriptive statistics you should know about
+
+1. Population vs Sample
+2. Central Tendency
+3. Measure of variability/spread
+4. Outliers
+5. Data visualization tools and plots
+   - Frequency table/plot
+   - Bar chart
+     - Histogram
+     - Boxplot
+   - Bivariate plots
+     - Scatter plot
+     - Line chart
+6. When comparing two means, 2 tests helps the difference between the 2 means.
+   - t-test
+     - t-test is used when we have less than 30 sample size.
+     - One sample t-test
+     - Independent t-test
+     - Repeated measure t-test
+     - Unequal variance
+   - z-test
+     - z-test is used when we have greater than 30 sample size.
+
+![test](./images/tests.png)
+
 ### 2. Inferential Statistics
 
 Inferential statistics is a branch of statistical science that involves drawing conclusions or making predictions about a larger population from a sample of data. This is done by using probability and hypothesis testing to determine the likelihood that observed results are due to chance or if there is a significant relationship between variables.
 
 Genrating inference from population on the basis of sample.
+
+![Data](./images/data.png)
 
 ## Why Stats is Important for Data Science
 
@@ -501,13 +530,22 @@ If we calculate STD;
 
 Data distribution refers to how data points in a dataset are spread out or clustered across a range of values. It is the blueprint that describes the shape or spread of data in a graphical format. Understanding the distribution of data is fundamental in choosing the correct statistical methods and models for analysis.
 
-Graphical representations such as histograms, box plots, and probability density plots are invaluable in visualizing data distributions.
+Graphical representations such as histograms, box plots, and probability density plots are invaluable in visualizing data distributions. We apply distributions on **numerical data** only.
 
 Understanding the distribution of data is pivotal in data science for several reasons:
 
 1. Model Selection
 2. Predictive Analysis
 3. Outlier Detection
+
+### Why is normal distribution important in data science and data analysis?
+
+The normal distribution is important in data science and data analysis because it provides a framework for statistical inference, simplifies analysis, and allows for the application of a wide range of statistical techniques.
+
+### How to Normalize the Data?
+
+1. Min-Max Normalization
+2. Z-Score Normalization
 
 ### 1. Normal/Gaussian Distribution: The Bell Curve
 
@@ -532,6 +570,182 @@ Often used to model waiting times or lifetimes. Example: The amount of time unti
 ![Data Distributions](./images/data_distributions.png)
 ![Data Distribution](./images/data_distributions_1.png)
 ![Every Distribution With Types](./images/all_distributions_types.jpg)
+
+## Skewness vs Kurtosis
+
+Skewness and kurtosis are measures that describe the shape of a data distribution. While they may sound complex, they are essentially tools to understand how data behaves around the mean.
+
+### Symmetrical Data Distribution
+
+A distribution in which Mean, Media, and Mode are same on center data i.e Normally distributed.
+
+### Skewness: The Asymmetry Measure
+
+Skewness measures the degree of asymmetry of a distribution around its mean. It indicates whether the data points are skewed to the left (negative skew) or to the right (positive skew) of the mean.
+
+- Positive Skew: A distribution with a longer tail on the right side.
+- Negative Skew: A distribution with a longer tail on the left side.
+
+Example: Income distribution is often positively skewed, as a majority of people earn below the average, with a few high earners creating a long right tail.
+
+![Skewness](./images/skewness.png)
+
+### Kurtosis: The Tailedness Measure
+
+Kurtosis measures the ‘tailedness’ of a distribution. It describes the height and sharpness of the central peak and the heaviness of the distribution’s tails.
+
+- High Kurtosis (Leptokurtic): A distribution with heavy tails and a sharper peak than a normal distribution.
+- Low Kurtosis (Platykurtic): A distribution with lighter tails and a flatter peak.
+
+![Kurtosis](./images/kurtosis.png)
+
+### Skewness vs Kurtosis: The Key Differences
+
+- Focus on Symmetry: Skewness primarily focuses on the symmetry, or lack thereof, of a distribution, whereas kurtosis is more about the extremity of data points.
+- Implication on Data Analysis: Skewness affects the direction of data deviation, while kurtosis influences the probability of extreme values.
+
+## Data Collection
+
+Data collection is the process of gathering and measuring information on variables of interest in a systematic manner, enabling one to answer stated research questions, test hypotheses, and evaluate outcomes. The quality of your data collection determines the quality of your data analysis.
+
+### Primary Data
+
+Primary data is data that is collected directly from the source, such as through surveys, interviews, or observations, and is used to gather original information about a particular topic. For example, a researcher conducting a survey to gather data about people's opinions on a political issue is collecting primary data.
+
+1. Research/Experiment Data Collection
+2. Interview Data Collection
+3. Primary Reagent Data Collection
+   - Lab/University/Institute Data
+4. Questionaire Data Collection
+5. Survey Data Collection
+6. Audio Data Podcast
+
+### Secondary Data
+
+Secondary data is data that has been previously collected by someone else and is used to analyze or interpret information about a particular topic. For example, a researcher using census data to analyze population trends is using secondary data.
+
+## Why Do We Need Sampling?
+
+1. For Data Science, raw material is DATA.
+2. The one who is collecting the data they need resources.
+3. Data collected in two ways that is either collect in population or in sample.
+   - In sampling we collect the data randomly to reduce the biasness.
+4. If we have already seconday data (in big data world) then why do we need to collect more data?
+   - Because we need to collect more data to get more accurate data.
+   - Also new theory and new phenomenon arise because of different researches and experiements.
+   - If we stop to collect data (primary data) then innovation will stop.
+
+## Best Practices in Data Collection
+
+1. Clearly Define Your Objectives
+2. Choose the Right Data Collection Method
+3. Ensure Data Accuracy and Reliability
+   - Implement checks and balances to validate the accuracy of your data.
+   - This might include cross-checking with multiple sources or using validated instruments.
+4. Ensure Data Privacy and Ethics
+5. Plan for Data Storage and Management
+   - Have a system for organizing, storing, and managing your data.
+   - This could involve databases, cloud storage, and data management software.
+6. Train Your Data Collection Team
+7. Pilot Test Your Data Collection Tools
+8. Document the Process
+
+## Representative and Non-representative Sampling
+
+Representative Sampling | Non-representative Sampling |
+------------------------|-----------------------------|
+ A sampling method that aims to select a subset of data that accurately reflects the characteristics of the entire population       | A sampling selects a subset of data that may not accurately reflect the population. |
+ ____                   | ____ |
+ Simple Random Sampling | Convenience Sampling |
+ Systematic Sampling    | Haphazard Sampling |
+ Stratifies Sampling    | Purposive/Judgmental Sampling |
+ Cluster Sampling       | Snowball Sampling |
+ ____                   | Quota Sampling |
+
+- Also called Probability Sampling and Non-Probability Sampling
+
+![Reprentative vs Non-representative](./images/representative_vs_non_sampling.png)
+
+## Chossing a Right Statistical Method
+
+Parametric Tests | Non-Parametric Tests |
+-----------------|----------------------|
+ More Reliable results | Less Reliable results |
+ First we have meet the assumptions | Calulates the rand of data |
+ A3 | No need to meet the assumptions |
+
+### Step-1 Normality Test
+
+1. Shapiro-Wilk Test
+   - Specific (Reliable)
+2. Kolmogorov-Smirnov Test
+   - General (Less Reliable)
+
+### Step-2 Homogeneity Test
+
+The variance of the variable in data are equal
+
+1. Levene's Test
+
+### Step-3 Purpose
+
+Know the purpose of your research question
+
+1. Comparison
+2. Relationship
+   - Connection, Correlation, Causation, Prediction
+
+### Step-4 Data Type
+
+Know the type of data you are working with.
+
+1. Categorical
+2. Numerical
+
+### Step-5 Statistical Tests
+
+Choosing a statistical test from three main families.
+
+1. Chi-Squared
+   - Comparison, use for categorical only.
+   - Can be used with any number of levels or groups.
+2. t-test/ANOVA
+   - Comparison, use for cateogrical and numerical both.
+3. Correlation
+   - Relationship, use for numerical only.
+   - Pearson's Correlation.
+   - Regression.
+
+### Assumptions are not Met
+
+1. Normalize your data
+   - Standardization
+   - Min-max Scaling
+   - Log Transformation
+2. Use Alternative Non-Paramteric Tests
+
+![Non-Paramteric Test](./images/paramteric_non_paramteric_test.png)
+![Anova](./images/anova_types.png)
+![Some Other Test](./images/some_other_tests.png)
+
+- Full Guide to Choose Test
+
+![Normality](./images/normality_full.png)
+
+## Four Pillars of EDA
+
+CDCR
+
+1. Composition
+2. Distribution
+3. Comparison
+4. Relationship
+
+## Dependent vs Independent Variables
+
+In statistics, dependent variables are variables that are influenced by or depend on other variables, while independent variables are variables that influence or determine the dependent variables.
+
+Columns are variables.
 
 ## Resources
 
