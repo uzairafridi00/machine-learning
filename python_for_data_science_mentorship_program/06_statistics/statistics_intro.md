@@ -88,9 +88,14 @@ For descriptive statistics you should know about
 
 ### 2. Inferential Statistics
 
-Inferential statistics is a branch of statistical science that involves drawing conclusions or making predictions about a larger population from a sample of data. This is done by using probability and hypothesis testing to determine the likelihood that observed results are due to chance or if there is a significant relationship between variables.
+Inferential statistics is a branch of statistical science that involves drawing conclusions, making predictions about a larger population from a sample of data. This is done by using probability and hypothesis testing to determine the likelihood that observed results are due to chance or if there is a significant relationship between variables.
 
 Genrating inference from population on the basis of sample.
+
+1. Dependent vs Independent Variables
+2. Hypothesis Testing
+3. Confidence Interval
+4. Multiple Comparison of Means
 
 ![Data](./images/data.png)
 
@@ -746,6 +751,47 @@ CDCR
 In statistics, dependent variables are variables that are influenced by or depend on other variables, while independent variables are variables that influence or determine the dependent variables.
 
 Columns are variables.
+
+## Hypothesis Testing
+
+Hypothesis testing is a statistical technique used to determine whether a hypothesis about a population parameter is likely to be true or false, based on sample data. It is used to make inferences about a population based on a sample.
+
+Example of hypothesis testing include determining whether a new drug is effective in treating a certain medical condition, based on the results of a clinical trial.
+
+1. **Null Hypothesis**
+   - Denoted by H0:
+   - Independent Variable doesn't effect dependent variable is called Null Hypothesis.
+   - When we want to reject our hypothesis.
+   - The null hypothesis is a hypothesis that there is no significant difference or relationship between variables, and is used as a baseline for comparison in statistical testing.
+   - _Examples_ of the null hypothesis include a study of the effect of a new drug on blood pressure, where the null hypothesis might be that the drug has no effect on blood pressure.
+2. **Alternate** Hypothesis
+   - Denoted by H1:
+   - Independent variable effect dependent variable is called Alternate Hypothesis.
+   - A hypothesis that states that there is a significant difference or relationship between variables, and is used as a comparison to the null hypothesis in statistical testing.
+
+### Hypothesis Testing Steps
+
+1. H0: Null Hypothesis
+2. H1: Alternate Hypothesis
+3. Data Collection to test the hypothesis
+4. Statistical Analysis
+5. Results of H0 and H1, which one is true or false.
+   - Answer
+   - Reporting
+
+**Example**; Let's say you want to test if there's a significant difference in math skills between students in Karachi and Lahore. Your null hypothesis (HO) would be that there's no difference in skills between students in both cities, and the alternative hypothesis (H1) would be that there is a significant difference. Then you collect data from schools in both cities and perform a statistical test like a t-test or ANOVA to see if your data rejects the null hypothesis or not.
+
+If we get P<0.05 after getting 95% confidence interval then we reject the H0.
+
+![Hypothesis](./images/hypothesis.png)
+
+## Confidence Intervals
+
+A confidence interval is a range of values within which we can be confident that the true population parameter lies, based on a sample; for example, a 95% confidence interval for the mean height of a population is 160-170 cm, indicating that we are 95% confident that the true mean height falls within this range.
+
+Upper bound and lower bound are 160-170 cm.
+
+**Example**; Let's say you calculated the average test score of students in a college in Peshawar. Your sample mean is 70, and you calculated a 95% confidence interval which falls between 68 and 72. This means that you are 95% confident that the average score of all students in the college will be within this range.
 
 ## Resources
 
