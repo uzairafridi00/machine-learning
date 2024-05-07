@@ -65,6 +65,8 @@ users -> search jupyter send selection -> checked this button
 	
 ______________________________________________
 
+		
+			MINICONDA
 		CONDA ENVIRONMENTS / Containers
 
 

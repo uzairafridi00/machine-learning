@@ -83,7 +83,7 @@ Reinforcement = Learn from mistakes and depends on feedback
 	Example => Google Mail Spam -> google asking you that mail is Spam or not
 
 
-		ALOGS
+		ALGOS
 
 	Model Free Reinforcement Learning
 		Policy Optimizatio
