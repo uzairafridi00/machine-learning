@@ -168,9 +168,10 @@ Data pre-processing is always needed for Machine Learning models. Following are 
 
 1. `Data Cleaning`
    - Know your purpose when cleaning the data.
-   - Discard the data which are not necessary/outliers (noisy data).
-   - Impute missing values if any.
-   - We can make a new column/variable after cleaning the data (feature engineering).
+   - Missing Values.
+   - Smoothing noisy data.
+   - Outliers removal.
+   - Inconsistency, check for duplicates.
 2. `Data Integration/Pooling`
    - Triangulation (Multi) method to collect data.
    - Duplicates or Data Redundancy will arise here and we have to remove them.
@@ -180,12 +181,14 @@ Data pre-processing is always needed for Machine Learning models. Following are 
    - Normalize the data.
    - Data Aggregation = combining two or more variables/features/columns to make a new variable/feature/column.
    - Data Generalization = specific to general, make bins from age column.
+   - Higher level concepts.
 4. `Data Reduction`
    - We have 50 features and predicting 1 feature. More features = More dimensions = More Computation.
    - Take out those features which are not important for output feature.
    - Dimensionality Reduction, PCA analysis, Multivariate analysis.
-   - Numerosity Reduction, changing categorical variable to numeric variable (binary). This technique is also called data encoding technique.
+   - Numerousity Reduction, changing categorical variable to numeric variable (binary). This technique is also called data encoding technique.
    - Data Compression.
 5. `Data Discretization`
    - Numeric data convert to Nominal data (categorical).
    - Binning method is used here.
+   - Clusters.
