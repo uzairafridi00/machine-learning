@@ -192,3 +192,30 @@ Data pre-processing is always needed for Machine Learning models. Following are 
    - Numeric data convert to Nominal data (categorical).
    - Binning method is used here.
    - Clusters.
+
+## Data Pre-processing
+
+1. Data Cleaning
+   - Missing Values
+   - Smoothing Noisy Data
+   - Outliers
+   - Inconsistency
+2. Data Integration
+   - Data Integrate
+   - Data Duplicates
+   - Data Merging
+   - Data Consolidate
+3. Data Transformation
+   - Scaling
+   - Normalization
+   - Aggregate
+   - Generalization
+   - Higher Level Concepts
+4. Data Reduction
+   - Dimensionality Reduction
+   - Numerousity Reduction
+   - Data Compression
+5. Data Discretization
+   - Numerical to Categorical Conversion
+   - Binning
+   - Clustering
