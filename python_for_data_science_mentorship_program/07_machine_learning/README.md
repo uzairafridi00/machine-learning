@@ -219,3 +219,20 @@ Data pre-processing is always needed for Machine Learning models. Following are 
    - Numerical to Categorical Conversion
    - Binning
    - Clustering
+
+## Paramteric & Non-Paramteric
+
+Parametric and non-parametric tests are statistical methods used to compare means or medians of two or more groups. Parametric tests assume that the data is normally distributed and have equal variances, while non-parametric tests do not make these assumptions and are used when the data is not normally distributed or the variances are not equal. Examples of parametric tests include t-test and ANOVA, while examples of non-parametric tests include Mann-Whitney U test and Kruskal-Wallis test.
+
+Parametric distributions are distributions that are fully specified by a finite set of parameters, such as mean and variance. Examples of parametric distributions include:
+
+- Normal distribution
+- Binomial distribution
+- Poisson distribution
+- Exponential distribution
+
+Non-parametric distributions, on the other hand, are distributions that are not fully specified by a finite set of parameters. Instead, they are often estimated using empirical data. Examples of non-parametric distributions include:
+
+- Empirical distribution function
+- Kernel density estimate
+- Histogram
