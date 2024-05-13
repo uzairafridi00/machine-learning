@@ -236,3 +236,29 @@ Non-parametric distributions, on the other hand, are distributions that are not 
 - Empirical distribution function
 - Kernel density estimate
 - Histogram
+
+## Difference between Standardization, Transformation and Normalization
+
+Standardization/Scaling refers to the process of transforming data to have a mean of 0 and a standard deviation of 1.
+
+Transformation, on the other hand, refers to the process of applying a mathematical function to data to change its distribution or shape.
+
+Normalization refers to the process of scaling data to a specific range, such as 0 to 1. This is often done to make data more comparable or to meet the assumptions of certain statistical models.
+
+`NOTE`, we normalize the data so that our model easily understand the patterns.
+
+## Feature Scaling vs Normalization
+
+Scaling                | Normalization         |
+-----------------------|-----------------------|
+Use in Pre-Processing | Use in Pre-Processing |
+Interchangeable       | Interchangeable       |
+Change the range of data without altering shape of distribution | Adjust the scale of data but also change the shape of its distribution |
+Important for algorithms that are sensitive to scale of data | Used to transform features to be on same scale |
+SVM and KNN | This includes transforming skewed data to approximate a normal distribution |
+Min-Max and Z-Score Scaling | log, square root, Box-Cox and Yeo-Johnson transformation |
+Used when you want to compare data that is measured on different scales | Used when dataset has skewed distribution and algorithms used assume normality of features |
+
+### Tip About Scaling and Normalization
+
+When we are using scaling and normalization then we should not tell the user that we are using any transformation so we do this in backend. User gives input -> transform the input -> apply model -> then reverse the output -> show the result.
