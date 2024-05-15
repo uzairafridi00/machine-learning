@@ -147,9 +147,9 @@ In machine learning, a model refers to the specific representation learned from 
 
 Overfitting and underfitting are common problems in machine learning, both leading to poor generalization performance on unseen data.
 
-A model is either too complex and captures noise in the data (overfitting) and it negatively impacts the performance of the model on new data. `Example`, a model that performs exceptionally well on the training data but poorly on the testing data.
+A model is either too complex and captures noise in the data `(overfitting)` and it negatively impacts the performance of the model on new data. `Example`, a model that performs exceptionally well on the training data but poorly on the testing data.
 
-A model is simple and fails to capture important patterns (underfitting) and therefore performs poorly on both training and new data. `Example`, a linear regression model trying to fit non-linear data.
+A model is simple and fails to capture important patterns `(underfitting)` and therefore performs poorly on both training and new data. `Example`, a linear regression model trying to fit non-linear data.
 
 ## Python Libraries for ML
 
