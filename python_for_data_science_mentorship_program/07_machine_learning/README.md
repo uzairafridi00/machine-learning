@@ -262,3 +262,27 @@ Used when you want to compare data that is measured on different scales | Used w
 ### Tip About Scaling and Normalization
 
 When we are using scaling and normalization then we should not tell the user that we are using any transformation so we do this in backend. User gives input -> transform the input -> apply model -> then reverse the output -> show the result.
+
+## Evaluation Metrics for Regression and Classification Models
+
+- Regression
+  - For Numeric
+  - MSE, R^2, RMSE, MAE
+- Classification
+  - For Categorical
+  - Accuracy Score, Recall Score, Precision Score, F1 Score, Confusion Matrix
+  - Classification Report
+
+## Train Test Split Matters
+
+We only train the model on train data and further evaluate the model on testing data. Then we fit the model to transform the values into predictions. We split the data in 80/20. `80%` for training data and `20%` for testing data.
+
+General Model is better otherwise we will face overfitting or underfitting in the model.
+
+Here `White Line` is general model.
+
+![General Model](./images/general_model.png)
+
+## Random State 42
+
+Using 42 has become a bit of a tradition in programming (inspired by `"The Hitchhiker's Guide to the Galaxy"` by Douglas Adams) and it's often used as a placeholder value when a specific number isn't critical to the application. By setting random_state to a fixed value we ensure that every time the code run will `split` the data in the same way to achieve reproducibility in your results. If we don't set a random seed (random_state) different runs of the code result in different training and testing sets which can make it challenging to compare and reproduce results.
