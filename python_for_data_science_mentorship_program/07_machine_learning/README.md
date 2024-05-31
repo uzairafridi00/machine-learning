@@ -24,16 +24,25 @@ In mathematics we look to patterns. So when machine recognize the patterns from 
 
 ### 1. Supervised Learning
 
+Supervised machine learning is powerful for tasks where historical data predicts future events. However, its effectiveness relies on the quality of the training data and the ability to generalize from that data to unseen situations.
+
 - Works under supervision
 - Teacher teaches
 - Include label data
 - Prediction
 - Outcome
 
-1. Classification
-   - For Categories
-2. Regression
-   - For Numerical Data
+1. Labeled Data
+2. Model Training
+3. Prediction
+4. Evaluation
+
+`Applications are Spam Detection, Customer Churn Prediction, Credit Scoring, Sales Forecasting.`
+
+- Classification
+  - For Categories
+- Regression
+  - For Numerical Data
 
 #### Supervised Learning Algorithms
 
@@ -44,6 +53,7 @@ In mathematics we look to patterns. So when machine recognize the patterns from 
 - Naive Bayes
 - Decision Tree Classification
 - Random Forest Classification
+- Gradient Boosting Machines
 
 ### 2. Unsupervised Learning
 
