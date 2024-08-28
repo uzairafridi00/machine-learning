@@ -97,6 +97,8 @@ We keep specific version of tools in each environment so that there should no co
 	conda init
 
 	conda activate streamlit_env
+
+	conda deactivate
 	
 	conda list
 	
