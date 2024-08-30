@@ -72,12 +72,18 @@
         <button class="btn btn-outline-success" type="submit">
           <a class="nav-link" href="/login">Login</a>
         </button>
+        
+        <button class="btn btn-outline-success" type="submit">
+          <a class="nav-link" href="/logout">Logout</a>
+        </button>
+
         </form>
       </div>
     </nav>
 
-  
-    {% block content %} {% endblock %}
+    <div class="container-fluid">
+      {% block content %} {% endblock %}  
+    </div>
 
     <script
       src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
