@@ -17,3 +17,14 @@ Kaggle
 LinkedIn
 Poe.com
 YouTube
+
+
+
+
+	ML Datasets
+
+uci machine learning datasets   =  archive.ics.uci.edu
+	
+
+
+
