@@ -49,7 +49,7 @@ BlackBox AI  = Free
 Code Snap = Click classic Image of your Code
 
 
-	Markdown Extensions
+	Markdown Extensions 
 
 Markdown All in One  = for Markdown notes
 Markdown PDF
