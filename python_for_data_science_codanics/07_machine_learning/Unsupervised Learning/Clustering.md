@@ -19,5 +19,7 @@ Clusters can do all these.
 
 1. Data exploration and better understanding.
 2. Pattern detection: Trend of data.
-
-## K-Means Clustering
+3. Dimensionality reduction.
+4. Pre-processing.
+5. Image segmentation.
+6. Recommendation system. Make clusters of keywords.
