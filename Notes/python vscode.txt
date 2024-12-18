@@ -110,6 +110,7 @@ We keep specific version of tools in each environment so that there should no co
 
 	conda rename -n old_name  new_name 
 
+	conda remove --name ENV_NAME --all
 
 	INSTALL ALL THE LIBRARIES
 
