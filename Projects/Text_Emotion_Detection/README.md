@@ -27,3 +27,9 @@ This technology can be applied in customer feedback analysis, mental health moni
 - `Streamlit`
 - `Joblib`
 
+## Video
+
+https://github.com/user-attachments/assets/caf22b55-2f72-420b-927a-4417fde6038e
+
+
+
