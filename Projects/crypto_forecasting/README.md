@@ -35,8 +35,6 @@ crypto_forecasting/
 - **Prediction Pipelines**: Ready-to-use scripts for generating cryptocurrency price forecasts.
 - **Inference Scripts**: 
   - `ML_inference.py` for machine learning model inference.
-  - `DL_inference.py` for deep learning model inference.
-
 ---
 
 ## Installation
@@ -62,10 +60,6 @@ crypto_forecasting/
 To train the model, modify and run the `modeltraining.py` script in the respective `ML/models/` or `DL/models/` folder:
    ```bash
    python ML/models/modeltraining.py
-   ```
-   or
-   ```bash
-   python DL/models/modeltraining.py
    ```
 
 ### Predict Cryptocurrency Prices
