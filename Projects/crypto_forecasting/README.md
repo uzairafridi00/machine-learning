@@ -41,7 +41,7 @@ crypto_forecasting/
 
 1. Clone this repository:
    ```bash
-   git clone https://github.com/zabih1/CryptoForecasting.git
+   git clone https://github.com/uzairafridi00/machine-learning/tree/main/Projects/crypto_forecasting
    ```
 2. Navigate to the project directory:
    ```bash
