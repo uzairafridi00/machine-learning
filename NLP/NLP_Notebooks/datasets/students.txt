@@ -1,0 +1,16 @@
+ABC High School Students Data
+
+=========================================================
+
+Name               Birth Date        Email  
+
+John Smith        2007-04-15        john.smith@email.com  
+Emma Johnson      2006-08-22        emma.johnson@email.com  
+Liam Brown        2008-02-10        liam.brown@email.com  
+Olivia Williams   2007-11-30        olivia.williams@email.com  
+Noah Jones        2006-06-25        noah.jones@email.com  
+Ava Davis         2008-01-14        ava.davis@email.com  
+William Miller    2007-09-05        william.miller@email.com  
+Sophia Wilson     2006-12-18        sophia.wilson@email.com  
+James Anderson    2008-03-21        james.anderson@email.com  
+Mia Thomas        2007-07-09        mia.thomas@email.com  
