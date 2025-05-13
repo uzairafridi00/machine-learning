@@ -1,0 +1,15 @@
+1. Create New Folder
+2. Open it in Code Editor
+3. Create a new venv
+        python -m venv NAME
+
+4. Activate venv
+        venv\Scripts\Activate
+
+5. Create the requirements.txt
+6. Install packages from requirements.txt
+        pip install -r requirements.txt
+
+7. Verify LangChain Installation
+
+8. Save the API keys in .env file
