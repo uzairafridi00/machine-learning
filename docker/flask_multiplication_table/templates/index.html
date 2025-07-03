@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Multiplication Table</title>
+</head>
+<body>
+    <h1>Enter a number to get its multiplication table</h1>
+    <form method="post">
+        <input type="text" name="number" required>
+        <button type="submit">Submit</button>
+    </form>
+
+    {% if number is not none %}
+        <h2>Multiplication Table for {{ number }}</h2>
+        <ul>
+        {% for line in table %}
+            <li>{{ line }}</li>
+        {% endfor %}
+        </ul>
+    {% endif %}
+</body>
+</html>
