@@ -9,6 +9,9 @@ from langchain_community.vectorstores import FAISS
 from langchain_core.prompts import ChatPromptTemplate
 from langchain_core.runnables import RunnableParallel, RunnablePassthrough, RunnableLambda
 from langchain_core.output_parsers import StrOutputParser
+import os
+
+os.environment['LANGCHAIN_PROJECT'] = 'RAG Chatbot'
 
 load_dotenv()  # expects OPENAI_API_KEY in .env
 
@@ -35,7 +38,9 @@ prompt = ChatPromptTemplate.from_messages([
 
 # 5) Chain
 llm = ChatOpenAI(model="gpt-4o-mini", temperature=0)
-def format_docs(docs): return "\n\n".join(d.page_content for d in docs)
+
+def format_docs(docs): 
+    return "\n\n".join(d.page_content for d in docs)
 
 parallel = RunnableParallel({
     "context": retriever | RunnableLambda(format_docs),
