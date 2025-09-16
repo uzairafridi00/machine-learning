@@ -2,6 +2,4 @@
 
 All my Machine Learning practice Code + Notes
 
-Notes Added
-
 ## All ML Projects + Python Resources
